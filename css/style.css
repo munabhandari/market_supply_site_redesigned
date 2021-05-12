@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+        background-color: #222;
+    padding: 20px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.top_nav ul{
+   
+}
+.top_nav ul li{
+    display: inline;
+}
+.top_nav ul li a{
+color: #fff;
+text-decoration: none; 
+font-size: 12px;
+padding: 0px 10px;
+border-right: 1px solid #fff;
+}
+.top_nav ul li:last-child a{
+    border: 0px;
+}
+.grid{
+    display: grid;
+    justify-content: space-between;
+}
+.col2{
+    grid-template-columns: auto auto;
+    }
+    .top_right{
+        text-align: right;
+    }
+.search input[type=text]{
+    width: 530px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 25px;
+    }
+.search button{
+    background-color: #f10e34;
+    color: #fff;
+    border: 0px;
+    padding: 12px 15px;
+    border-radius: 0px 5px 5px 0px;
+}
+.top_bottom{
+    padding-top: 25px;
+}
+.icon{
+    background-color: #f10e34;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.cart{
+    margin-left: 40px;
+}
+.cart_text{
+    color: #fff;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+nav{
+    background-color: #f10e34;
+    line-height: 52px;
+    text-transform: uppercase;
+    }
+.main ul li{
+    display: inline;
+}
+.cat{
+    color: #fff;
+    font-weight: bold;
+}
+.main ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+
+}
